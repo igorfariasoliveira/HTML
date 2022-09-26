@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+            background-color: rgb(214, 30, 30);
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(97, 0, 0);
+            padding: 10px;
+            margin: 10px;
+            color: white;
+        }
+        main {
+            background-color: rgb(97, 0, 0);
+            padding: 10px;
+            margin: 10px;
+            color: white;
+            text-align: justify;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+
+        }
+        footer > p {
+            margin: 0px;
+        }
+        article {
+            background-color: rgb(173, 23, 23);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: brown;
+        }
+        nav {
+            background-color: rgb(49, 46, 46);
+            padding: 3px;
+            box-shadow: 4px 5px 8px 0px rgba(0, 0, 0, 0.562);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="historia">
+            <article>
+                <h1>História do Flamengo</h1>
+                <p>O Flamengo foi fundado em 17 de novembro de 1895 para as disputas de remo. A entrada da equipe no futebol aconteceu em 1912. Atualmente, o time rubro-negro é o maior vencedor da história do Campeonato Carioca, com 31 títulos. Segundo diversas pesquisas, é o clube com o maior número de torcedores do País. Os dois principais títulos da história do Flamengo ocorreram em 1981. Comandado pelo ídolo Zico, o time conquistou a Copa Libertadores da América, em final contra o Cobreloa, do Chile, e o Mundial Interclubes, diante do Liverpool, da Inglaterra. Foi na década de 1980, também, que o Flamengo conquistou o seu primeiro Campeonato Brasileiro.</p>
+                <aside>
+                    <p>Escrito por Igor Farias</p>
+                </aside>
+            </article>
+        </section>
+        <section id="titulos">
+            <article>
+                <h1>Titulos internacionais</h1>
+                <ul>
+                    <li>Mundial interclubes - 1981</li>
+                    <li>Taça Libertadores da América - 1981 e 2019</li>
+                    <li>Copa Mercosul - 1999</li>
+                    <li>Copa Ouro Sul-americana - 1996 (invicto)</li>
+                    <li>Recopa Sul-Americana - 2020</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Igor Farias</p>
+    </footer>
+</body>
+</html>
