@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho da imagem de fundo</title>
+    <style>
+        body {
+            height: 97vh;
+            /*background-color: black;
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+            /* shorthand - background
+             color > imagem > position > repeat > [size] > attachment*/
+            background: black url('imagens/wallpaper002.jpg') center top/cover no-repeat fixed; 
+            /*background-size: cover;*/
+            /*O background-size ainda não esta funcionando na shorthand se não colocar a / depois do repeat*/
+        }
+        main {
+            background-color: white;
+            max-width: 600px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia harum consectetur rem corrupti voluptatum sint blanditiis. Maxime fuga quae nulla ea qui, omnis aliquid nisi animi at dicta inventore molestias? Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, numquam perferendis deleniti quasi obcaecati est ipsa eius. Eum exercitationem similique voluptatibus. Deserunt quo odit doloribus qui laudantium optio maiores sed? Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia magni magnam nostrum neque earum optio laboriosam dolorem libero mollitia distinctio dolor voluptas veniam vitae fugit, odit esse nulla maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, cum cupiditate obcaecati provident quas, quia libero ut labore commodi ea doloribus autem quam vel porro, dolorum facere molestias tenetur voluptas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laborum sequi labore quo, iusto excepturi molestiae sint fugit enim recusandae nulla cupiditate earum vitae quisquam autem maiores aperiam, aliquid impedit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas alias vitae, dignissimos magnam voluptatibus corporis! Tempore consequuntur unde nobis odit quam voluptatum iusto totam neque eos assumenda. Officiis, velit blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fugit expedita voluptatem vitae! Itaque neque, commodi et rerum placeat cumque qui quam quos omnis explicabo ex voluptatem iusto quo at.</p>
+    </main>
+</body>
+</html>
