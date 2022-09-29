@@ -1,0 +1,26 @@
+* {
+padding: 0px;
+margin: 0px;
+}
+body {
+    background-color: black;
+}
+header { 
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+header > p {
+    font-size: 1.25em;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 7em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.setor01{
+    background-color: white;
+    font-size: 7em;
+}
